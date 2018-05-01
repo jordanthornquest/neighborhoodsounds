@@ -1,2 +1,10 @@
 ---
 ---
+
+html {
+  background-image: url("{{ "/img/ns-layout.jpg" | relative_url }}");
+  background-color: black;
+  background-position: top;
+  background-size: cover;
+  height: 2000px;
+}
