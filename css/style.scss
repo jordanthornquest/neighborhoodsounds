@@ -78,8 +78,8 @@ ul li {
   background-image: url("{{ "/img/intropic.jpg" | relative_url }}");
   background-size: cover;
   background-position: center;
-  margin: 0 auto;
-  padding: 70px 0 100px;
+  margin: 0 auto 60px;
+  padding: 70px 0 120px;
   max-width: 100%;
   text-align: center;
 }

@@ -18,7 +18,7 @@ ul { list-style-type: none; text-align: center; }
 
 ul li { display: inline; padding-right: 25px; padding-left: 25px; font-size: 25px; }
 
-.intro { background-image: url("/img/intropic.jpg"); background-size: cover; background-position: center; margin: 0 auto; padding: 70px 0 100px; max-width: 100%; text-align: center; }
+.intro { background-image: url("/img/intropic.jpg"); background-size: cover; background-position: center; margin: 0 auto 60px; padding: 70px 0 120px; max-width: 100%; text-align: center; }
 
 .intro-content { z-index: 1; position: relative; }
 
