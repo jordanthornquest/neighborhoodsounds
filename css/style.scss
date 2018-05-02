@@ -25,6 +25,11 @@ p, ul, li {
 }
 
 // Nav
+nav {
+  margin: 0 auto 0 auto;
+  max-width: 1000px;
+  border-bottom: white 1px solid;
+}
 
 ul {
   list-style-type: none;
