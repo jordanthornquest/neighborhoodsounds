@@ -43,7 +43,6 @@ p, ul, li, a {
 
 a {
   text-decoration: none;
-  border-bottom: 1px solid currentColor;
 }
 
 a:hover, a:active {
@@ -85,11 +84,6 @@ nav ul li {
   padding-left: 25px;
   font-size: 25px;
   text-transform: uppercase;
-}
-
-nav ul li a {
-  text-decoration: none;
-  border-bottom: none;
 }
 
 // Intro Layout
@@ -143,6 +137,7 @@ nav ul li a {
 
 .home-columns a {
   text-transform: uppercase;
+  border-bottom: 1px solid currentColor;
 }
 
 // About layout
