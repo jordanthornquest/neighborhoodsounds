@@ -1,13 +1,29 @@
 html { background-image: url("/img/ns-layout.jpg"); background-color: #1a1a1a; background-size: 1580px; background-position: top; background-repeat: no-repeat; height: 2000px; }
 
-body { margin-top: 70px; }
+body { max-width: 1580px; margin: 0 auto; }
 
-p, ul, li { color: white; font-family: 'Open Sans', sans-serif; }
+.darken-pseudo { position: relative; }
 
-nav { margin: 0 auto 0 auto; max-width: 1000px; border-bottom: white 1px solid; }
+.darken-pseudo:after { content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; display: block; background-color: rgba(0, 0, 0, 0.5); }
+
+p, ul, li, a { color: white; font-family: 'Open Sans', sans-serif; }
+
+h1, h2, h3 { color: #c0dd4a; font-family: 'Bungee', cursive; }
+
+.button { color: #1A1A1A; background-color: white; border-radius: 0; margin: 0 10px 0 10px; font-size: 20px; }
+
+nav { margin: 0 auto 70px auto; max-width: 1000px; border-bottom: white 1px solid; }
 
 ul { list-style-type: none; text-align: center; }
 
 ul li { display: inline; padding-right: 25px; padding-left: 25px; font-size: 25px; }
 
+.intro { background-image: url("/img/intropic.jpg"); background-size: cover; background-position: center; margin: 0 auto; padding: 70px 0 100px; max-width: 100%; text-align: center; }
+
+.intro-content { z-index: 1; position: relative; }
+
 .logo { display: block; margin: 0 auto 40px auto; max-width: 400px; }
+
+.intro p { max-width: 500px; margin: 0 auto 70px auto; }
+
+.intro-buttons { display: block; margin: 0 auto 0 auto; }
