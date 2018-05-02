@@ -10,6 +10,10 @@ img { display: block; width: 100%; height: auto; }
 
 p, ul, li, a { color: white; font-family: 'Open Sans', sans-serif; }
 
+a { text-decoration-line: none; border-bottom: 1px solid currentColor; }
+
+a:hover, a:active { color: #c0dd4a; }
+
 h1, h2, h3 { color: #c0dd4a; font-family: 'Bungee', cursive; }
 
 h3 { font-size: 25px; }
@@ -18,9 +22,11 @@ h3 { font-size: 25px; }
 
 nav { margin: 0 auto 70px auto; max-width: 1000px; border-bottom: white 1px solid; }
 
-ul { list-style-type: none; text-align: center; }
+nav ul { list-style-type: none; text-align: center; }
 
-ul li { display: inline; padding-right: 25px; padding-left: 25px; font-size: 25px; text-transform: uppercase; }
+nav ul li { display: inline; padding-right: 25px; padding-left: 25px; font-size: 25px; text-transform: uppercase; }
+
+nav ul li a { text-decoration-line: none; border-bottom: none; }
 
 .intro { background-image: url("/img/intropic.jpg"); background-size: cover; background-position: center; margin: 0 auto 60px; padding: 70px 0 120px; max-width: 100%; text-align: center; }
 
