@@ -2,16 +2,11 @@
 ---
 
 html {
-  background-image: url("{{ "/img/ns-layout.jpg" | relative_url }}");
-                    // ,url("{{ "/img/bgtexture.jpg" | relative_url }}")
-  background-color: rgba(26, 26, 26, 1);
-  background-size: 1580px;
-  background-position: top;
-  background-repeat: no-repeat;
-  height: 2000px;
+  background-color: black;
 }
 
 body {
+  background: url("{{ "/img/bgtexture.jpg" | relative_url }}") ;
   max-width: 1580px;
   margin: 0 auto;
 }
@@ -33,6 +28,12 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 // Typography
 
 p, ul, li, a {
@@ -43,6 +44,10 @@ p, ul, li, a {
 h1, h2, h3 {
   color: #c0dd4a;
   font-family: 'Bungee', cursive;
+}
+
+h3 {
+  font-size: 25px;
 }
 
 .button {
@@ -70,9 +75,10 @@ ul li {
   padding-right: 25px;
   padding-left: 25px;
   font-size: 25px;
+  text-transform: uppercase;
 }
 
-// Layout
+// Intro Layout
 
 .intro {
   background-image: url("{{ "/img/intropic.jpg" | relative_url }}");
@@ -98,9 +104,57 @@ ul li {
 .intro p {
   max-width: 500px;
   margin: 0 auto 70px auto;
+  font-size: 16px;
 }
 
 .intro-buttons {
   display: block;
   margin: 0 auto 0 auto;
+}
+
+// Home Columns
+
+.home-columns .column {
+  margin-bottom: 50px;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.home-columns img {
+  display: block;
+  margin: 30px auto;
+  max-width: 100%;
+}
+
+.home-columns a {
+  text-transform: uppercase;
+}
+
+// About layout
+
+.about-column {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
+}
+
+.about-column .about-column-image {
+  padding: 20px;
+}
+
+.about-column .about-column-content {
+  padding: 40px;
+}
+
+// Footer Layout
+
+footer {
+  background-color: black;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
 }
