@@ -3,8 +3,44 @@
 
 html {
   background-image: url("{{ "/img/ns-layout.jpg" | relative_url }}");
-  background-color: black;
+                    // ,url("{{ "/img/bgtexture.jpg" | relative_url }}")
+  background-color: rgba(26, 26, 26, 1);
   background-position: top;
   background-size: cover;
   height: 2000px;
+}
+
+body {
+  margin-top: 70px;
+}
+
+header {}
+
+// Typography
+
+p, ul, li {
+  color: white;
+}
+
+// Nav
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+ul li {
+  display: inline;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-size: 30px;
+}
+
+// Layout
+
+.logo {
+  display:       block;
+  margin-right:  auto;
+  margin-left:   auto;
+  max-width:     400px;
 }
