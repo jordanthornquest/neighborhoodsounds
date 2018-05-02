@@ -1,11 +1,11 @@
-html { background-image: url("/img/ns-layout.jpg"); background-color: #1a1a1a; background-position: top; background-size: cover; height: 2000px; }
+html { background-image: url("/img/ns-layout.jpg"); background-color: #1a1a1a; background-size: 1580px; background-position: top; background-repeat: no-repeat; height: 2000px; }
 
 body { margin-top: 70px; }
 
-p, ul, li { color: white; }
+p, ul, li { color: white; font-family: 'Open Sans', sans-serif; }
 
 ul { list-style-type: none; text-align: center; }
 
-ul li { display: inline; padding-right: 25px; padding-left: 25px; font-size: 30px; }
+ul li { display: inline; padding-right: 25px; padding-left: 25px; font-size: 25px; }
 
-.logo { display: block; margin-right: auto; margin-left: auto; max-width: 400px; }
+.logo { display: block; margin: 0 auto 40px auto; max-width: 400px; }

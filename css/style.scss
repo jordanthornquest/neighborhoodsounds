@@ -5,8 +5,9 @@ html {
   background-image: url("{{ "/img/ns-layout.jpg" | relative_url }}");
                     // ,url("{{ "/img/bgtexture.jpg" | relative_url }}")
   background-color: rgba(26, 26, 26, 1);
+  background-size: 1580px;
   background-position: top;
-  background-size: cover;
+  background-repeat: no-repeat;
   height: 2000px;
 }
 
@@ -20,6 +21,7 @@ header {}
 
 p, ul, li {
   color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 // Nav
@@ -33,14 +35,13 @@ ul li {
   display: inline;
   padding-right: 25px;
   padding-left: 25px;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 // Layout
 
 .logo {
   display:       block;
-  margin-right:  auto;
-  margin-left:   auto;
+  margin:        0 auto 40px auto;
   max-width:     400px;
 }
