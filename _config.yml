@@ -1,14 +1,17 @@
 title: Neighborhood Sounds
-description: Making music happen. We organize shows and provide resources for artists in the Magic Valley area.
+description: Making Music Happen. We organize shows and provide resources for artists in the Magic Valley area. Whether you're a music fan looking to explore the local scene, or an artist seeking to join the growing culture, we can show you where to go.
 url: www.neighborhoodsounds.com
 author: Jordan Thornquest
+logo: /img/logo.png
+google_site_verification: Hka8oNAX51XY-SN7OaraTQlMOzUX38QmY7c0OW8lDYc
 twitter:
-  username: jsthornquest
+  username: neibohoodsounds
 social:
-  name: Jordan Thornquest
+  name: Neighborhood Sounds
   links:
-    - https://twitter.com/jsthornquest
-    - https://www.facebook.com/jordanthornquestofficial
+    - https://twitter.com/neibohoodsounds
+    - https://www.facebook.com/neighborhoodsounds
+    - https://instagram.com/neighborhoodsounds
 
 plugins:
   - jekyll-sitemap

@@ -45,6 +45,10 @@ a {
   text-decoration: none;
 }
 
+p a {
+  border-bottom: 1px solid currentColor;
+}
+
 a:hover, a:active {
   color: #c0dd4a;
 }
@@ -68,7 +72,7 @@ h3 {
 // Nav
 
 nav ul li {
-  display: block;
+  display: inline;
 }
 
 .social ul li {
@@ -82,7 +86,7 @@ nav, .social {
 }
 
 nav {
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .social {
@@ -92,6 +96,7 @@ nav {
 
 nav ul, .social ul {
   list-style-type: none;
+  margin-bottom: 10px;
 }
 
 nav ul li, .social ul li {
@@ -102,11 +107,11 @@ nav ul li, .social ul li {
 }
 
 nav ul li {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .social ul li {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 @media (min-width: 685px) {
@@ -118,6 +123,18 @@ nav ul li {
     border-bottom: none;
   }
 
+  nav {
+    margin-bottom: 20px;
+  }
+
+  .social {
+    margin-bottom: 70px;
+  }
+
+  nav ul, .social ul {
+    margin-bottom: 25px;
+  }
+
   nav ul li, .social ul li {
     padding-right: 25px;
     padding-left: 25px;
@@ -125,6 +142,11 @@ nav ul li {
 
   nav ul li {
     display: inline;
+    font-size: 25px;
+  }
+
+  .social ul li {
+    font-size: 30px;
   }
 }
 
@@ -135,7 +157,7 @@ nav ul li {
   background-size: cover;
   background-position: center;
   margin: 0 auto 60px;
-  padding: 70px 20px 100px;
+  padding: 30px 20px 100px;
   max-width: 100%;
   text-align: center;
 }
@@ -147,16 +169,25 @@ nav ul li {
   position: relative;
 }
 
+.logo {
+  display:       block;
+  margin:        0 auto 20px auto;
+  max-width:     400px;
+}
+
 @media (min-width: 685px) {
+
+  .intro {
+    padding-top: 70px;
+  }
+
   .intro-content {
     max-width: 100%;
   }
-}
 
-.logo {
-  display:       block;
-  margin:        0 auto 40px auto;
-  max-width:     400px;
+  .logo {
+    margin-bottom: 40px;
+  }
 }
 
 .intro p {
@@ -203,11 +234,25 @@ nav ul li {
 }
 
 .about-column .about-column-image {
-  padding: 45px 0px 45px 30px;
+  padding: 45px 0px;
 }
 
 .about-column .about-column-content {
   padding: 40px;
+}
+
+.about-column .button-wrapper {
+  text-align: center;
+}
+
+@media (min-width: 685px) {
+  .about-column .about-column-image {
+    padding: 45px 0px 45px 30px;
+  }
+
+  .about-column .button-wrapper {
+    text-align: left;
+  }
 }
 
 // Footer Layout
