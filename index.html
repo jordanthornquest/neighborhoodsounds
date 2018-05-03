@@ -6,49 +6,8 @@ layout: default
 <header class="intro darken-pseudo">
   <div class="intro-content">
     <img class="logo" src="{{ '/img/logo.png' | relative_url }}">
-
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="https://www.facebook.com/neighborhoodsounds/events/">Shows</a></li>
-      </ul>
-    </nav>
-    <div class="social">
-      <ul>
-        <li>
-          <a href="https://www.facebook.com/neighborhoodsounds/">
-            <span class="fa-layers fa-fw">
-              <i class="fas fa-circle"></i>
-              <i class="fab fa-facebook-f" data-fa-transform="shrink-6" style="color:black"></i>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href="/">
-            <span class="fa-layers fa-fw">
-              <i class="fas fa-circle"></i>
-              <i class="fab fa-twitter" data-fa-transform="shrink-6" style="color:black"></i>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href="/">
-            <span class="fa-layers fa-fw">
-              <i class="fas fa-circle"></i>
-              <i class="fab fa-instagram" data-fa-transform="shrink-6" style="color:black"></i>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href="/">
-            <span class="fa-layers fa-fw">
-              <i class="fas fa-circle"></i>
-              <i class="fab fa-youtube" data-fa-transform="shrink-6" style="color:black"></i>
-            </span>
-          </a>
-        </li>
-      </ul>
-    </div>
+    {% include nav.html %}
+    {% include social.html %}
 
     <div class="intro-text">
       <h1>Making Music Happen</h1>
