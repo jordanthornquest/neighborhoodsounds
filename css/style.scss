@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background: url("{{ "/img/bgtexture.jpg" | relative_url }}") ;
+  background: url("{{ "/img/bg-texture.jpg" | relative_url }}") ;
   max-width: 1580px;
   margin: 0 auto;
 }
@@ -62,8 +62,7 @@ h3 {
   color: #1A1A1A;
   background-color: white;
   border-radius: 0;
-  margin: 0 10px 20px 10px;
-  font-size: 20px;
+  margin: 10px 10px 10px 0;
 }
 
 // Nav
@@ -99,6 +98,7 @@ nav ul li, .social ul li {
   padding-right: 10px;
   padding-left: 10px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 nav ul li {
@@ -131,7 +131,7 @@ nav ul li {
 // Intro Layout
 
 .intro {
-  background-image: url("{{ "/img/intropic.jpg" | relative_url }}");
+  background-image: url("{{ "/img/intro-pic.jpg" | relative_url }}");
   background-size: cover;
   background-position: center;
   margin: 0 auto 60px;
@@ -170,6 +170,11 @@ nav ul li {
   margin: 0 auto 0 auto;
 }
 
+.intro-buttons .button {
+  margin: 0 10px 20px 10px;
+  font-size: 20px;
+}
+
 // Home Columns
 
 .home-columns .column {
@@ -198,7 +203,7 @@ nav ul li {
 }
 
 .about-column .about-column-image {
-  padding: 20px;
+  padding: 45px 0px 45px 30px;
 }
 
 .about-column .about-column-content {

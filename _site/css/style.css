@@ -1,6 +1,6 @@
 html { background-color: black; }
 
-body { background: url("/img/bgtexture.jpg"); max-width: 1580px; margin: 0 auto; }
+body { background: url("/img/bg-texture.jpg"); max-width: 1580px; margin: 0 auto; }
 
 .darken-pseudo { position: relative; }
 
@@ -18,7 +18,7 @@ h1, h2, h3 { color: #c0dd4a; font-family: 'Bungee', cursive; }
 
 h3 { font-size: 25px; }
 
-.button { color: #1A1A1A; background-color: white; border-radius: 0; margin: 0 10px 20px 10px; font-size: 20px; }
+.button { color: #1A1A1A; background-color: white; border-radius: 0; margin: 10px 10px 10px 0; }
 
 nav ul li { display: block; }
 
@@ -32,7 +32,7 @@ nav { margin-bottom: 20px; }
 
 nav ul, .social ul { list-style-type: none; }
 
-nav ul li, .social ul li { padding-right: 10px; padding-left: 10px; text-transform: uppercase; }
+nav ul li, .social ul li { padding-right: 10px; padding-left: 10px; text-transform: uppercase; cursor: pointer; }
 
 nav ul li { font-size: 25px; }
 
@@ -42,7 +42,7 @@ nav ul li { font-size: 25px; }
   .social { border-bottom: none; }
   nav ul li, .social ul li { padding-right: 25px; padding-left: 25px; }
   nav ul li { display: inline; } }
-.intro { background-image: url("/img/intropic.jpg"); background-size: cover; background-position: center; margin: 0 auto 60px; padding: 70px 20px 100px; max-width: 100%; text-align: center; }
+.intro { background-image: url("/img/intro-pic.jpg"); background-size: cover; background-position: center; margin: 0 auto 60px; padding: 70px 20px 100px; max-width: 100%; text-align: center; }
 
 .intro-content { max-width: 400px; margin: 0 auto; z-index: 1; position: relative; }
 
@@ -53,6 +53,8 @@ nav ul li { font-size: 25px; }
 
 .intro-buttons { display: block; margin: 0 auto 0 auto; }
 
+.intro-buttons .button { margin: 0 10px 20px 10px; font-size: 20px; }
+
 .home-columns .column { margin-bottom: 50px; padding: 40px 20px; text-align: center; background-color: rgba(0, 0, 0, 0.5); }
 
 .home-columns img { display: block; margin: 30px auto; max-width: 100%; }
@@ -61,7 +63,7 @@ nav ul li { font-size: 25px; }
 
 .about-column { background-color: rgba(0, 0, 0, 0.5); margin-bottom: 50px; }
 
-.about-column .about-column-image { padding: 20px; }
+.about-column .about-column-image { padding: 45px 0px 45px 30px; }
 
 .about-column .about-column-content { padding: 40px; }
 
