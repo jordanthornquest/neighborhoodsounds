@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
-  {% seo %}
+<html lang="en">
   <head>
+    {% seo %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:title" content="Neighborhood Sounds: Making Music Happen" />
@@ -14,9 +14,9 @@
   </head>
   <body>
     {{ content }}
+    <footer>
+      <p>Copyright &copy; <script>var today = new Date();var year = today.getFullYear();document.write(year);</script> Neighborhood Sounds</p>
+    </footer>
   </body>
-  <footer>
-    <p>Copyright &copy; <script type="text/javascript">var today = new Date();var year = today.getFullYear();document.write(year);</script> Neighborhood Sounds</p>
-  </footer>
   <script>var el = document.getElementById("about-column")</script>
 </html>
