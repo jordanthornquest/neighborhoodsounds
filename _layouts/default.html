@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {% seo %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Bungee|Open+Sans" rel="stylesheet">
@@ -9,6 +8,8 @@
     <link rel="stylesheet" href="{{ "/css/skeleton.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/css/style.css" | relative_url }}">
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <title>{{ page.title }} | {{ site.title }}</title>
+    {% seo title=false %}
   </head>
   <body>
     {{ content }}
